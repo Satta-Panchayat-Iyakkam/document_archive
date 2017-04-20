@@ -11,19 +11,19 @@ require_once '../includes/session.php';
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.6 -->
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <!-- iCheck for checkboxes and radio inputs -->
-    <link rel="stylesheet" href="../plugins/iCheck/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/iCheck/1.0.1/skins/all.css">
     <!-- Jquery UI -->
-    <link rel="stylesheet" href="../plugins/jQueryUI/jquery-ui-1.11.4.custom/jquery-ui.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.css">
     <!-- Select2 -->
-    <link rel="stylesheet" href="../plugins/select2/select2.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css">
 	 <!-- TagsInput -->
-	<link rel="stylesheet" href="../plugins/jQuery-Tags-Input/src/jquery.tagsinput.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-tagsinput/1.3.3/jquery.tagsinput.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="../dist/css/SPI.min.css">
     <!-- SPI Skins. Choose a skin from the css/skins
@@ -153,15 +153,15 @@ require_once '../includes/session.php';
 <!-- ./wrapper -->
 
 <!-- jQuery 2.2.3 -->
-<script src="../plugins/jQuery/jquery-2.2.3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js"></script>
 <!-- Bootstrap 3.3.6 -->
-<script src="../bootstrap/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <!-- Select2 -->
-<script src="../plugins/select2/select2.full.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.full.min.js"></script>
  <!-- TagsInput -->
-<script src="../plugins/jQuery-Tags-Input/src/jquery.tagsinput.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-tagsinput/1.3.3/jquery.tagsinput.js"></script>
 <!-- iCheck 1.0.1 -->
-<script src="../plugins/iCheck/icheck.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iCheck/1.0.1/icheck.min.js"></script>
 <!-- Jquery UI -->
 <script src="../plugins/jQueryUI/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
 <!-- notify -->
