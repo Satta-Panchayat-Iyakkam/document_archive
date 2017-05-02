@@ -5,13 +5,17 @@ $output["success"] = FALSE;
 $output["message"] = "Something went Wrong!";
 $id = $_POST["id"];
 $doc_name = $_POST["doc_name"];
-
-$sql = "DELETE FROM documents WHERE id='{$id}'";
-$result = mysqli_query($conn, $sql);
-if ($result) {
-	$output["success"] = TRUE;
-	$output["message"] = "Document (" . $_POST["doc_name"] . ") has been Successfully Deleted!";
-} else {
+if(unlink('../pages/documents/'.$_POST["doc_name"])){
+	$sql = "DELETE FROM documents WHERE id='{$id}'";
+	$result = mysqli_query($conn, $sql);
+	if ($result) {
+		$output["success"] = TRUE;
+		$output["message"] = "Document (" . $_POST["doc_name"] . ") has been Successfully Deleted!";
+	} else {
+		$output["success"] = FALSE;
+		$output["message"] = "Error Occured While Delete Document!";
+	}
+}else{
 	$output["success"] = FALSE;
 	$output["message"] = "Error Occured While Delete Document!";
 }
