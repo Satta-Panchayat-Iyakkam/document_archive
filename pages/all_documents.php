@@ -94,18 +94,12 @@ require_once '../includes/session.php';
                 <li class="header">
                     MAIN NAVIGATION
                 </li>
-				<li class="treeview">
-                    <a href="#"> <i class="fa fa-file"></i> <span>Documents</span> <span
-                            class="pull-right-container"> <i class="fa fa-angle-left pull-right"></i> </span> </a>
-                    <ul class="treeview-menu">
-                        <li>
-                            <a href="upload_documents.php"><i class="fa fa-upload"></i> Upload</a>
-                        </li>
-						<li>
-                            <a href="all_documents.php"><i class="fa fa-file-o"></i> Report</a>
-                        </li>
-                    </ul>
-                </li>
+				 <li>
+					<a href="upload_documents.php"><i class="fa fa-upload"></i> Upload</a>
+				</li>
+				<li class="active">
+					<a href="all_documents.php"><i class="fa fa-file-o"></i> Report</a>
+				</li>
             </ul>
         </section>
         <!-- /.sidebar -->
